@@ -1,7 +1,7 @@
 var MooTools = {
   version : "1.2.0",
   build : ""
-};
+}; 
 /**
  * @param {Object} options
  * @return {?}
