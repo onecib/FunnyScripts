@@ -2,10 +2,6 @@ var MooTools = {
   version : "1.2.0",
   build : ""
 }; 
-/**
- * @param {Object} options
- * @return {?}
- */
 var Native = function(options) {
   options = options || {};
   var afterImplement = options.afterImplement || function() {
@@ -34,13 +30,6 @@ var Native = function(options) {
     };
     Native.typize(object, family);
   }
-  /**
-   * @param {Object} obj
-   * @param {?} name
-   * @param {Function} method
-   * @param {boolean} force
-   * @return {?}
-   */
   var add = function(obj, name, method, force) {
     if (!protect || (force || !obj.prototype[name])) {
       /** @type {Function} */
@@ -52,12 +41,6 @@ var Native = function(options) {
     afterImplement.call(obj, name, method);
     return obj;
   };
-  /**
-   * @param {?} opt_attributes
-   * @param {Function} a2
-   * @param {boolean} a3
-   * @return {?}
-   */
   object.implement = function(opt_attributes, a2, a3) {
     if (typeof opt_attributes == "string") {
       return add(this, opt_attributes, a2, a3);

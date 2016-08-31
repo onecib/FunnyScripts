@@ -1,0 +1,4 @@
+Das passiert wenn man ein Event-handler in einer Schleife benutzt mit einem lokal-declarierte var.
+---> die Schleife wird zuerst ausgeführt bis i=3+1 und dann wenn das Click-Event ausgeführt wird, bleibt i bei 4 
+Die lösung wäre einfach das "var" mit einem "let" zu ersetzen.
+Weil "let" scopt den ganzen Block, "var" scopt nur die erste Funktion.

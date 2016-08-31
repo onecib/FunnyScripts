@@ -1,0 +1,2 @@
+Variante 1 ist am schnellsten weil sie führt sich selbst ohne variable.
+Die Varianten 2 und 3 werden mit adder Variable ausgeführt.

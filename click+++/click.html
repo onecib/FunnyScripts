@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Click</title>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+
+<ul>
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+</ul>
+
+<script type="application/javascript">
+$(function(){
+    var i;
+
+    for (i = 1; i <= 3; i++) {
+        $('li').eq(i - 1).on('click', function(){
+            console.log($(this).text(), i);
+        });
+    }
+});
+</script>
+
+</body>
+</html>

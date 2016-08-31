@@ -1,0 +1,7 @@
+>one 
+>three
+>two
+
+ 
+weil console.log('two'); bei der nächste event-Schleife aufgerufen wird.
+---> das ganze Code wird ausgeführt und erst dann wird das setTimeout ausgeführt.11

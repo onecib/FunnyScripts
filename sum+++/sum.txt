@@ -1,0 +1,7 @@
+Schreibe eine Funktion, die ein Array mit Zahlen als Parameter nimmt, alle Zahlen summiert und ausgibt. Die Funktion muss rekursiv sein und darf keine Schleifen (for) verwenden.
+
+Beispielaufruf:
+sum([1, 2, 3]);
+
+Beispielausgabe:
+> 6

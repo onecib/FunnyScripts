@@ -1,0 +1,3 @@
+Schaue Dir die Datei click.html an. Bei einem Klick auf A, B oder C sollte eigentlich "A 1", "B 2" und "C 3" ausgegeben werden. Warum wird z.B. "A 4" ausgegeben? Wie könnte man das Problem beheben, ohne die Schleife zu ersetzen bzw. alles umzuschreiben?
+
+Datei: click.html
