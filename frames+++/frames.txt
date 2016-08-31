@@ -1,0 +1,20 @@
+Die beiden PNG-Dateien "frames_868.png" und "frames_320.png" zeigen einen Teil der Landing-Pages für die Rahmen bei myposter. Der User kann sich über Rahmen informieren und zugleich einen Rahmen vorkonfigurieren.
+
+Konzept:
+- Der User kann einen Rahmen auswählen
+- Sobald ein Rahmen gewählt wurde, wird die große Ansicht und die Texte entsprechend aktualisiert
+- Der User kann zusätzlich auch ein Passepartout wählen, was in der großen Ansicht berücksichtigt werden muss
+- Der Link des Buttons "Jetzt gestalten" muss immer mitaktualisiert werden, so dass die Parameter des Links (Rahmen und Passepartout) bei einem Klick synchron zur aktuellen Auswahl sind
+- Im mobilen Layout muss die Auswahl der Rahmen, Passepartouts und die Ansicht des großen Rahmens durch Wischen horizontal navigierbar sein
+- In der Datei "frames.json" sind die Daten der einzelnen Rahmen. Diese können direkt im HTML-Dokument hinterlegt werden und müssen für den Aufbau der Webseite verwendet werden
+- Im Ordner "img" liegen alle benötigten Grafiken
+- Das Bild in der großen Ansicht im mobilen Layout kann im HTML oder CSS Skaliert werden
+- Der Text des ersten Rahmens muss von Suchmaschinen indizierbar sein
+- Die maximale Breite des Layouts beträgt 868 px, die minimale Breite des Layouts beträgt 320 px
+- Der Breakpoint kann beliebig zwischen 868 px und 320 px gewählt werden
+
+Technik:
+- Das Layout muss responsive umgesetzt werden
+- Es muss HTML5, CSS3 und JavaScript verwendet werden
+- Es kann jQuery verwendet werden
+- Es können Plugins und Frameworks verwendet werden

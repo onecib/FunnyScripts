@@ -1,0 +1,39 @@
+{
+	"frames": [
+		{
+			"type": "antik-gold",
+			"price": 24.99,
+			"productionTime": 6,
+			"name": "Holzrahmen Antik Gold",
+			"text": "Bilderrahmen in Gold verströmen stets edles Flair, das in diesem Modell aus unserer vielfältigen Rahmengalerie dennoch unaufdringlich bleibt. Mit 52 Millimetern in der Breite sorgt der Holzrahmen im antiken Stil für eine edle Wirkung an der Wand."
+		},
+		{
+			"type": "antik-silber",
+			"price": 24.99,
+			"productionTime": 6,
+			"name": "Holzrahmen Antik Silber",
+			"text": "In Silber begeistert der stilvolle Bilderrahmen sicherlich auch Sie, wenn er Ihre liebsten Fotos stilvoll umrahmt. Die antiken Bilderrahmen aus unserer Rahmengalerie überzeugen durch hohe Qualität und individuelle Fertigung nach Maß."
+		},
+		{
+			"type": "wurzelholz",
+			"price": 16.99,
+			"productionTime": 4,
+			"name": "Holzrahmen aus Wurzelholz",
+			"text": "Mit 20 Millimetern Breite legt sich der stilvolle Holzrahmen in Wurzelholz-Optik um Ihr gewünschtes Motiv. Der aus dem Biedermeier bekannte Look überzeugt als Kontrast zu modernen Designs ebenso wie als Ergänzung zu antiken Möbeln."
+		},
+		{
+			"type": "gebuerstet-gold",
+			"price": 19.99,
+			"productionTime": 5,
+			"name": "Holzrahmen gebürstet Gold",
+			"text": "Sanfter Schimmer und klare Formen begeistern bei dem Holzrahmen gebürstet Gold in unvergleichlichem Einklang. Schmücken Sie Ihr Lieblingsmotiv mit dem eleganten Rahmen, der auch Ihrem Foto garantiert den letzten Schliff verleiht."
+		},
+		{
+			"type": "gebuerstet-silber",
+			"price": 19.99,
+			"productionTime": 5,
+			"name": "Holzrahmen gebürstet Silber",
+			"text": "Mit kühler Eleganz begeistert der Holzrahmen in gebürstet silbernem Stil in jedem Wohnraumdekor. Ergänzen Sie den stilvollen Bilderrahmen aus Holz zu Ihren schönsten Fotos, um sie in modern gestalteten Wohn- oder Arbeitsräumen aufzuhängen."
+		}
+	]
+}
